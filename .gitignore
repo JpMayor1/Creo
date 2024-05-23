@@ -1,0 +1,5 @@
+# Ignore all files inside the public directory
+/public/*
+
+# Except for .gitkeep files
+!/public/.gitkeep

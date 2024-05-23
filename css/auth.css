@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    color: #ff6600;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"].btn {
+    width: 100%;
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+input[type="submit"].btn:hover {
+    background-color: #e65c00;
+}
+
+.register-link {
+    margin-top: 15px;
+}
+
+.register-link a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 14px 16px;
+}
